@@ -75,6 +75,15 @@ If you prefer a visual, mouse-driven system, follow these steps inside the graph
 3. **Commit to Main:** Click the blue button directly underneath labeled **Commit to main**. This records a permanent version snapshot on your hard drive storage metal.
 4. **Push Upstream to Sovereign Server:** Locate the top navigation bar menu or the large center button workspace area labeled **Push origin** (or **Fetch/Publish branch**). Click it to securely transfer your local snapshots onto our class server network.
 
+## 🧪 Step 2.5: How to Physically Run the Interactive Labs
+Our custom lab simulations (`labs/02-nudge-simulation.html`, etc.) are ultra-lightweight and run entirely on your personal device's hardware metal. You do not run them inside GitHub's website.
+
+1. Locate your cloned course folder on your computer using **Finder** (Mac) or **File Explorer** (Windows).
+2. Open the `labs/` directory and **double-click** the respective HTML file for the week.
+3. The simulation will instantly execute offline inside your local web browser.
+4. Interact with the system toggles. When complete, scroll to the bottom UI terminal box, highlight and **copy the raw generated text logs**.
+5. Open your local text editor, open your module `LAB-SUBMISSION.md` file, and paste those empirical logs directly into your report before running your commit pipeline.
+
 ## 🔍 Step 3: Issue Boards and Peer Code Review
 
 - **Tracking Progress:** All course announcements, scheduling notices, and project specifications are managed asynchronously through the repository **Issue Board**.
