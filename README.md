@@ -1,5 +1,5 @@
 # 🗺️ Student Onboarding Guide & Repository Workflows
-## PHL 3100 / MAC 5100 – Impacts of Computing (Summer 2026)
+## PHL 3100 / MAC 5100 – Impacts of Computing (Fall 2026)
 
 Welcome to the local decentralized environment for **Impacts of Computing**. In this course, we reject heavy commercial learning dashboards and corporate telemetry tracking. Instead, you will manage your entire coursework timeline directly from your machine using Git version control and plain-text Markdown. 
 
