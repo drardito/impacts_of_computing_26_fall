@@ -1,66 +1,49 @@
-# 🚨 SYSTEM MAINTENANCE NOTICE: Migrating to Sovereign Infrastructure
+# 🛑 Operational Update: The Great Secession (Week 8 Infrastructure Migration)
+## PHL 3100 / MAC 5100 – Impacts of Computing
 
-**To:** All Student Nodes (Developer and Analyst Tracks)  
-**Status:** Mandatory Operational Shift  
-**Execution Window:** Week 8 (Asynchronous Timeline)
+As established on Day 1, this course actively investigates data enclosure, tracking networks, and digital autonomy. To ensure your academic labor is not captured by corporate machine learning datasets, this course executes a structural infrastructure pivot at the exact midpoint of our 14-week semester.
 
 ---
 
-## 🏗️ 1. The Operational Shift
+## 📅 The 14-Week Two-Phase Architecture & Illich's Second Watershed
 
-For the first seven weeks of this term, our decoupled workspace has been hosted inside Microsoft's cloud infrastructure (GitHub). While this provided a stable onboarding environment, it leaves our aggregate interaction telemetry enclosed within corporate monitoring profiles.
+Ivan Illich observed in his text *Tools for Conviviality* that every major human technology eventually passes through a historical threshold called the **Second Watershed**. Before this line, a tool empowers individuals; after it, the tool becomes heavily bureaucratized, shifting into a **Radical Monopoly** that forces society to conform to its closed rules. 
 
-Consistent with our analysis of Audrey Watters’ Skinnerian EdTech critique (Module 2) and Pope Leo XIV's warning against the private enclosure of computing networks (*Magnifica Humanitas*, §66), we are executing a mandatory infrastructure migration. **We are seceding from the commercial cloud.**
+Version control and open-source networks have crossed this Second Watershed. Platforms like modern, corporate GitHub have institutionalized open collaboration into a space of data harvesting and corporate capture. In Week 8, we actively secede from this monopoly.
 
-We have provisioned an open-core, self-hosted GitLab Community Edition instance running on dedicated campus hardware. 
+### Course Timeline Summary
 
-* **Our Sovereign Server URL:** `https://sovereign-classroom.university.edu`
-* **Your Credentials:** Check your inbox via our Out-of-Band Zero-Knowledge Encrypted Portal for your unique account authorization token.
+#### Phase 1: Weeks 1 to 7 | The Enclosure Exploration
+*   **Week 1:** Fork the master repository and open a single Pull Request (PR 1) on GitHub.
+*   **Weeks 2-7:** Work locally on your machine hard drive and push logs up to update your PR 1 automatically.
+*   **End of Week 7:** Your Phase 1 portfolio is evaluated, graded out-of-band, and closed.
 
-Consistent with Harold Innis’s framework from Module 4, our migration off Microsoft GitHub is an explicit rejection of space-biased imperial networks. For seven weeks, our repository code has been floating through light, hyper-portable commercial cloud channels designed for corporate data harvesting. By transferring our repositories to our local, self-hosted campus server, we are intentionally introducing a heavy, time-biased infrastructure. We are choosing a system that requires local community maintenance, minimizes planetary transmission footprints, and protects the long-term historical continuity of our data within our own physical walls. We are moving from Empire back to Community.
+#### The Midpoint Pivot: Week 8 Infrastructure Secession
+*   Migrate your operational workspace accounts and repositories from GitHub to Codeberg.
 
-```mermaid
-graph LR
-    subgraph Phase 1 [Weeks 1-7: Centralized Cloud Enclosure]
-        A[Local Workstation] -->|Git Push Tracking Telemetry| B(Commercial Cloud Host: GitHub / Microsoft)
-    end
+#### Phase 2: Weeks 8 to 14 | The Democratic Secession
+*   **Week 8:** Register on Codeberg, fork the instructor's master mirror, and reset your local terminal Git remotes.
+*   **Weeks 9-14:** Run your labs locally and update your new Pull Request (PR 2) automatically on Codeberg.
+*   **End of Week 14:** Your final open-portfolio evaluation is completed.
 
-    subgraph Phase 2 [Week 8: The Great Secession]
-        C[Local Workstation] -->|Drop Cloud Remotes| D{Structural Shift}
-        D -->|Point To Upstream Sovereign Metal| E(Self-Hosted Campus Node: GitLab CE)
-    end
-    
-    B -. Material Transition .-> E
-```
+---
 
-## 🛠️ 2. Your Asynchronous Migration Protocol
+## 🔒 Phase 1: Weeks 1 to 7 (GitHub Corporate Sandbox)
+1. **The Setup:** In Week 1, you create a pseudonymous handle, fork the master repository, and open **one single Pull Request** from your fork back to the instructor's repository.
+2. **The Execution:** For seven weeks, you run your labs locally on your hard drive metal and push your logs to your fork. Your open Pull Request will update automatically on our dashboard. **Do not close or merge this Pull Request.** It acts as your living notebook.
+3. **The Evaluation:** At the conclusion of Week 7, your Phase 1 portfolio will be reviewed inline, graded out-of-band, and closed by the instructor.
 
-Your sole lab task this week is to act as an independent systems administrator. You must safely transport your local workstation's repository history to our self-hosted campus node. Execute these steps precisely inside your local command-line interface:
+---
 
-1. **Initialize Target Target Shell:** Log into our private campus GitLab server using your secure credentials and initialize an empty repository shell under your verified pseudonymous handle.
+## 🏔️ Phase 2: Weeks 8 to 14 (The Codeberg Migration)
+In Week 8, we step outside the Radical Monopoly of Microsoft/GitHub entirely. We migrate our entire community ecosystem to **Codeberg.org**—a sovereign, non-profit Git forge built explicitly to remain a *convivial tool*. It is governed democratically by its members under European privacy laws and runs on open-source Forgejo software.
 
-2. **Map Sovereign Remote Node:** Open your local workstation terminal inside your project directory and link your workspace to the new server address:
+### The Migration Protocol (Executed in Week 8):
+1. **Profile Registration:** Navigate to [Codeberg.org](https://codeberg.org/) and register your existing pseudonymous handle.
+2. **Establish the Sovereign Fork:** Navigate to the instructor's master Codeberg repository mirror and click **Fork**.
+3. **Redirect Your Local Terminal Machine:** Update your local computer's workstation directory to push to your new clean home by running:
+   ```bash
+   git remote set-url origin [https://codeberg.org/YourSovereignHandle/impacts-of-computing.git](https://codeberg.org/YourSovereignHandle/impacts-of-computing.git)
 
-   Bash
+4. **Launch Portfolio 2:** Open **one single new Pull Request** on the Codeberg interface. From Weeks 9 through 14, your local pushes will pipe directly into this clean, telemetry-free digital ledger, manifesting what Illich famously mapped out as a decentralized, peer-to-peer network in Chapter 6 of [*Deschooling Society* (1971)](https://rmst202.sites.olt.ubc.ca/files/2022/04/illich_deschooling-society.pdf).
 
-   ```
-   git remote add upstream-sovereign [https://sovereign-classroom.university.edu/your-handle/course-repo.git](https://sovereign-classroom.university.edu/your-handle/course-repo.git)
-   ```
-
-3. **Push Cryptographic History:** Execute a full history push to the new node to transport all your branches, commits, and cryptographic signatures:
-
-   Bash
-
-   ```
-   git push upstream-sovereign main --tags
-   ```
-
-4. **Verify Portability States:** Open your browser interface on our self-hosted server to verify that your markdown files and history migrated perfectly without losing a single line of data history.
-
-## 📥 3. Asynchronous Deliverable: The Post-Migration Issue Log
-
-Once your code lands on our private server, open the **Issue Board** on the new GitLab instance. Submit an entry under the master migration thread detailing:
-
-1. **The Latency & Route Audit:** Run a baseline network route trace (`ping`) from your location against both `github.com` and our private server address. Document the structural variance in your data route times.
-2. **The Interface Friction Review:** Document your first impressions of GitLab’s layout compared to GitHub's social feed. Does the lack of commercial attention engineering alter your focus?
-3. **The Sovereign Calculation:** Defend whether this act of data sovereignty balances the increased operational responsibility of running a self-hosted server environment.

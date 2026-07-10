@@ -158,7 +158,7 @@
 
 <header>
     <h1>Module 4 Audit Lab: Emergent Surveillance Panopticon</h1>
-    <p>Framework Diagnostic: Harold Innis (Space-Bias Monopolies) & AAAI/ACM AIES (Emergent Telemetry)</p>
+    <p>Framework Diagnostic: Ivan Illich (Enclosure of Learning Webs) & Harold Innis (Space-Bias Monopolies)</p>
 </header>
 
 <div class="container">
@@ -188,19 +188,19 @@
         </div>
 
         <div>
-            <h3 style="margin: 0 0 5px 0; font-size: 1rem;">Telemetry Streams</h3>
+            <h3 style="margin: 0 0 5px 0; font-size: 1rem;">Student Usage Metrics</h3>
             <div class="metric-box" id="metrics">
                 System Loops: 0<br>
                 Total Deliveries: 0<br>
                 Surveillance Footprint: 0.0%
             </div>
             <div class="metric-box alert" id="alertBox" style="margin-top: 5px; display: none;">
-                ⚠️ ALERT: Systematic Human Re-Identification Matrix formed via spatial proxies.
+                ⚠️ ENCLOSURE DETECTED: High-velocity space efficiency has successfully enclosed the network, creating automatic surveillance vectors.
             </div>
         </div>
 
         <div>
-            <h3 style="margin: 0 0 5px 0; font-size: 1rem;">System Telemetry Log</h3>
+            <h3 style="margin: 0 0 5px 0; font-size: 1rem;">Background Usage Tracking Log</h3>
             <textarea id="syslog" readonly></textarea>
         </div>
     </div>
@@ -245,14 +245,14 @@
         ];
         
         updateDisplay();
-        logEvent("SYSTEM INITIALIZED: Non-tracking routing parameters configured.");
+        logEvent("SYSTEM INITIALIZED: Convivial peer-to-peer default states active.");
     }
 
     function setOptimizationMode(mode) {
         optimizationMode = mode;
         document.getElementById('modeOpt').className = mode === 'high' ? 'active' : '';
         document.getElementById('modeTime').className = mode === 'local' ? 'active' : '';
-        logEvent(`MODE ALTERATION: Switched to [${mode === 'high' ? 'Space-Biased Global Imperial Optimization' : 'Time-Biased Local Autonomous Node Configuration'}]`);
+        logEvent(`MODE ALTERATION: Switched to [${mode === 'high' ? 'Space-Biased Global Imperial Optimization' : 'Time-Biased Local Convivial Learning Web Layout'}]`);
     }
 
     function toggleSimulation() {
@@ -312,13 +312,13 @@
             if (b.r === targetR && b.c === targetC) {
                 if (!b.hasPkg) {
                     b.hasPkg = true;
-                    logEvent(`BOT_${idx}: Target metrics optimized at [${b.r},${b.c}].`);
+                    logEvent(`BOT_${idx}: Spatial routing efficiency maximized at [${b.r},${b.c}].`);
                 } else {
                     b.hasPkg = false;
                     totalDeliveries++;
                     b.pkgR = Math.floor(Math.random() * 13) + 1;
                     b.pkgC = Math.floor(Math.random() * 13) + 1;
-                    logEvent(`BOT_${idx}: Payload deployed.`);
+                    logEvent(`BOT_${idx}: Task completed. Payload deployed.`);
                 }
             }
         });
@@ -372,7 +372,7 @@
         if (overlaps >= 2 && optimizationMode === 'high') {
             document.getElementById('alertBox').style.display = 'block';
             if (cycleCount % 10 === 0) {
-                logEvent("🚨 COUNTER-INTELLIGENCE: Opaque routing arrays reconstructed human paths using proxy patterns.");
+                logEvent("🚨 SURVEILLANCE CRITERIA MET: Opaque routing arrays have successfully re-identified human paths via proxy interactions.");
             }
         }
     }

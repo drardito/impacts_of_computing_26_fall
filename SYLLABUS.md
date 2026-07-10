@@ -25,9 +25,11 @@ This course considers the ethical and social impacts of contemporary technology 
 ### Our Core Philosophical Friction
 Traditional tech frameworks operate on the working thesis that technology is a morally neutral tool that can be used well simply by understanding what it promotes or discourages. This course serves as a direct, critical investigation of that thesis. Drawing from **Ursula Franklin**, we analyze technology not as a neutral checklist of tools, but as an active, *prescriptive practice* that enforces political hierarchy, compliance, and social control. 
 
+To guide our alternative path, we ground our design in the theories of social philosopher **Ivan Illich**. In his seminal text *Tools for Conviviality*, Illich warns against "manipulative tools"—technologies built by an elite class that strip users of autonomy, track behaviors, and enforce dependency. In contrast, this course treats your local computer workstation terminal as a **convivial tool**: an accessible, transparent utility designed to maximize your individual liberty, resist corporate capture, and preserve your data sovereignty.
+
 This repository operates entirely outside commercial, tracking-heavy Educational Technology (EdTech) spaces. We do not use proprietary Learning Management System dashboards for our weekly cycles. As **Audrey Watters** warns, traditional corporate learning dashboards function as Skinnerian teaching machines engineered to measure click telemetry and enforce behavioral compliance. 
 
-Instead, we embrace **Minimal Computing**—a technical design philosophy that strips away software bloat, tracking cookies, and high-bandwidth dependencies to actively fight **Digital Redlining**. By working exclusively in plain-text Markdown via local Git terminal environments, we guarantee a learning space that is low-bandwidth, decentralized, deeply private, and accessible to anyone regardless of hardware access limitations.
+Instead, we embrace **Minimal Computing**—a technical design philosophy that strips away software bloat, tracking cookies, and high-bandwidth dependencies to actively fight **Digital Redlining**. By working exclusively in plain-text Markdown via local Git terminal environments, we reject manipulative interfaces and execute an act of *technological ascesis*. We guarantee a learning space that manifests what Illich mapped out as an autonomous, peer-to-peer **"Learning Web"**—low-bandwidth, decentralized, deeply private, and accessible to anyone regardless of hardware access limitations.
 
 To guide our technical audits, we adopt the cognitive split defined in the 2025 Vatican doctrinal note ***Antiqua et nova*** (§14). We recognize that computational networks excel at **Ratio** (discursive, mathematical optimization), but possess zero **Intellectus** (the intuitive, embodied human conscience). Throughout this term, your work will be an active defense of *intellectus* against the modern corporate urge to flatten human life into a black-box data matrix.
 
@@ -80,6 +82,8 @@ This repository contains four custom minimal-computing software simulators locat
 All foundational open-source textbooks are freely accessible online:
 * Dimmock, M. & Fisher, A. (2017). *Ethics for A-Level*. Cambridge, UK: Open Book Publishers. https://www.openbookpublishers.com/product/639
 * Matthews, G. (Ed.), (2021). *Introduction to Philosophy: Ethics*. Rebus Open Project. https://press.rebus.community/intro-to-phil-ethics/
+* Illich, Ivan. (1973). [*Tools for Conviviality*](https://archive.org/details/toolsforconvivia0000illi). Full-text open access link via Internet Archive.
+* Illich, Ivan. (1971). [*Deschooling Society*](https://rmst202.sites.olt.ubc.ca/files/2022/04/illich_deschooling-society.pdf). Open Educational Resource text mirror.
 * *All primary historical technical papers, encyclicals, and NGO datasets will be hosted directly within the repository text structure.*
 
 ---
@@ -89,13 +93,14 @@ All foundational open-source textbooks are freely accessible online:
 ### 🛠️ Part I: Frameworks, Bloat, and Behavior
 
 #### Week 1: Onboarding, Web Genesis, & Minimal Computing
-* **The Focus:** The birth of the digital public square vs. material software bloat and systemic digital redlining.
+* **The Focus:** The birth of the digital public square vs. material software bloat, systemic digital redlining, and the reclamation of localized computing autonomy.
 * **Core Texts:**
     * Ursula Franklin, *The Real World of Technology* (Lecture 1)
+    * Ivan Illich, [*Tools for Conviviality*](https://archive.org/details/toolsforconvivia0000illi) — Introduction & Chapter 1: "Two Watersheds"
     * Retro Tech Show Case Study, *[1989] NeXT Frontier: How Tim Berners-Lee Invented the Web on Steve Jobs’ NeXT Workstation*
     * AU Press Open Collections, *Critical Digital Pedagogy*, Chapter 7: "Digital Redlining, Minimal Computing, and Equity"
     * Vatican Note, *Antiqua et nova* (Sections 1–11: "Turing Tests and Discursive Reasoning")
-* **Lab Operations:** Day 1 Synchronous Initialization. Verify local workstation directory states; generate GPG signing keys; run a 5KB plain-text script layout to verify system portability.
+* **Lab Operations:** Day 1 Synchronous Initialization. Verify local workstation directory states; generate GPG signing keys; run a 5KB plain-text script layout to verify system portability. Frame your local terminal configurations through Illich's concept of building a convivial workstation interface.
 
 #### Week 2 & 3: The Attention Gold Rush & Engineered Compliance
 * **The Focus:** Behavioral design loops, persuasive technology, and the corporate acceleration of labor.
@@ -104,7 +109,7 @@ All foundational open-source textbooks are freely accessible online:
     * Audrey Watters, *Teaching Machines: The History of Personalized Learning* (Chapter 8: "The Skinnerian Panopticon")
     * Cory Doctorow, *"Enshittification"* Selected Essays
     * *Antiqua et nova* (Section 67: "The Crisis of Rapidification")
-* **Lab Operations (Ethical Analysis 1):** Run `labs/02-nudge-simulation.html`. Evaluate UI stimulus triggers against Watters' behaviorist tracking criteria.
+* **Lab Operations (Ethical Analysis 1):** Run `labs/02-nudge-simulation.html`. Evaluate UI stimulus triggers against Watters' behaviorist tracking criteria and Illich's definitions of institutional, manipulative tools.
 
 ### 📐 Part II: Power, Space, and Surveillance
 
@@ -119,18 +124,21 @@ All foundational open-source textbooks are freely accessible online:
 #### Week 6: SPRING BREAK — REPOSITORY DORMANT
 
 #### Week 7, 8 & 9: Algorithms, Black Boxes, and Workplace Management
-* **The Focus:** Automated decision-making (ADM) systems, micro-biasing, and the optimization trap.
+* **The Focus:** Automated decision-making (ADM) systems, micro-biasing, the optimization trap, and institutional monopolies.
 * **Core Texts:**
     * Cathy O'Neil, *Weapons of Math Destruction* (Chapters 1–3)
+    * Ivan Illich, *Tools for Conviviality* — Chapter 2: "The Radical Monopoly"
     * AlgorithmWatch Index, *Managed by the Algorithm: How AI is Changing the Way We Work*
     * Alkhathlan et al., *"Exploring 'Just Noticeable' Group Fairness in Rankings"* (Proceedings of the AAAI/ACM AIES Conference)
-* **Lab Operations (Ethical Analysis 3):** Run `labs/03-bias-simulation.html`. Analyze how hidden 1.5% proxy data adjustments easily pass macro-level compliance checking.
+    * Ivan Illich, [*Deschooling Society*](https://rmst202.sites.olt.ubc.ca/files/2022/04/illich_deschooling-society.pdf) — Chapter 6: "Learning Webs"
+* **Lab Operations (Ethical Analysis 3):** Run `labs/03-bias-simulation.html`. Analyze how hidden 1.5% proxy data adjustments easily pass macro-level compliance checking. Frame your final analysis around Illich's *Second Watershed*—identifying the exact moment corporate web infrastructures transition from helpful tools into a mandatory, inescapable monopoly.
 
 ```text
    🚨 [WEEK 8 COMPLIANCE DEADLINE: THE GREAT CLOUD SECESSION]
    Every student node must drop their tracking remote point connected to corporate servers 
    and re-point their workstations to our dedicated, self-hosted campus hardware running 
-   our open-core GitLab CE instance. This executes Innis's time-bias theory in production.
+   our open-core GitLab CE instance. This executes Innis's time-bias theory in production 
+   and manifests Illich's prophecy of an institutional-free, decentralized "Learning Web."
 ```
 
 ### 🤖 Part III: The AI Frontier and the Human Person
@@ -200,3 +208,7 @@ Because this is an asynchronous repository structure where peer evaluation and c
 1. **Athletic / Sponsored Trips:** Travel dates accompanied by a signed memo from the coach must be presented to the instructor prior to travel dates.
 2. **Religious Observances:** Advanced notice must be submitted to the instructor.
 3. **Extenuating Circumstances:** Includes family emergencies, severe illnesses, or accidents. Students will work with SHAC to document such circumstances.
+
+## 📝 License
+
+This course curriculum and its interactive laboratories are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share, copy, and remix these materials, provided you give appropriate attribution, do not use them for commercial gain, and share any adaptations under these exact same copyleft terms.
