@@ -1,3 +1,6 @@
+This is the structure for the repository.
+
+
 impacts-of-computing/ (Root Directory)
 ├── SYLLABUS.md
 ├── docs/
